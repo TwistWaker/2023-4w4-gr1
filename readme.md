@@ -4,6 +4,7 @@
 #### obejectifs
 - installer Wordpress localement
 - réaliser une première version d'un thème
+- résumer de git
 
 #### liens de référence
 - site du prof sur siteground
