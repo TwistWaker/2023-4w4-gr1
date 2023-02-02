@@ -13,15 +13,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: 4w4-benoit-fiola
 */
 
-@import "variables/dimension";
+@import "variable/dimension";
 @import "normalize/normalize";
-//@import "normalize/box-sizing";
+// @import "normalize/box-sizing";
 
 /* --------------------------------------------- base */
 @import "base/heading";
-//@import "base/espacement";
-//@import "base/lien";
-//@import "base/list";
+// @import "base/espacement";
+// @import "base/lien";
+// @import "base/list";
 
 /* --------------------------------------------- composant */
-//@import "composant/entete";
+// @import "composant/entete";
