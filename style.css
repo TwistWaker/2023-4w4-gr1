@@ -23,7 +23,8 @@ Text Domain: 4w4-benoit-fiola
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  background-color: aquamarine;
+  background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,253,100,1) 100%);
 }
 
 /* Sections
@@ -33,6 +34,13 @@ html {
  */
 body {
   margin: 0;
+  color: azure;
+}
+
+nav{
+
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,0) 0%, rgba(151,31,205,1) 57%, rgba(184,70,241,1) 100%);
 }
 
 /**
@@ -40,6 +48,9 @@ body {
  */
 main {
   display: block;
+  background: rgb(184,70,241);
+  background: linear-gradient(90deg, rgba(184,70,241,1) 0%, rgba(151,31,205,1) 19%, rgba(0,212,255,0) 100%);
+
 }
 
 /**
@@ -49,6 +60,7 @@ main {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  margin-left: 1rem;
 }
 
 /* Grouping content
@@ -79,8 +91,14 @@ pre {
  */
 a {
   background-color: transparent;
+  color: azure;
+  height: 100rem;
 }
 
+.site_titre{
+  color: blueviolet;
+
+}
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
@@ -326,22 +344,28 @@ template {
 /* --------------------------------------------- base */
 h1 {
   font-size: clamp(0.75rem, -0.75rem + 4.8vw, 3.75rem);
+
 }
 
 h2 {
   font-size: clamp(0.625rem, -0.3125rem + 3vw, 2.5rem);
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,0) 0%, rgba(151,31,205,1) 57%, rgba(184,70,241,1) 100%);
 }
 
 h3 {
   font-size: clamp(0.5625rem, -0.25rem + 2.6vw, 2.1875rem);
+  
 }
 
 h4 {
   font-size: clamp(0.5rem, -0.1875rem + 2.2vw, 1.875rem);
+  
 }
 
 h5 {
   font-size: clamp(0.5rem, -0.0313rem + 1.7vw, 1.5625rem);
+  
 }
 
 h6 {
