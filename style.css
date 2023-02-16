@@ -372,6 +372,43 @@ p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
+ul, ol {
+  margin: 1rem 0rem;
+  padding: 3px;
+  color: #444;
+}
+@media screen and (min-width: 400px) {
+  ul, ol {
+    margin: 1rem 0.5rem;
+    padding: 13px;
+  }
+}
+@media screen and (min-width: 400px) {
+  ul, ol {
+    margin: 1rem 0.5rem;
+    padding: 15px;
+  }
+}
+
+ul {
+  list-style-type: circle;
+}
+
+ul li,
+ol li {
+  margin: 0.5rem 0rem;
+}
+
+/*
+li>ol{}
+li>ul{}
+*/
+pre {
+  background-color: #555;
+  color: #eee;
+  overflow-x: scroll;
+}
+
 /* --------------------------------------------- composant */
 .site_titre h1 {
   font-size: clamp(1rem, 0.3864rem + 2.4545vw, 4.375rem);
