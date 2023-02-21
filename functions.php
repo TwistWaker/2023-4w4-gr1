@@ -32,3 +32,21 @@ add_theme_support( 'custom-logo', array(
 ) );
 
 
+/**
+ * Modifie la requete principale de Wordpress avant qu'elle soit exécuté
+ * le hook « pre_get_posts » se manifeste juste avant d'exécuter la requête principal
+ * Dépendant de la condition initiale on peut filtrer un type particulier de requête
+ * Dans ce cas çi nous filtrons la requête de la page d'accueil
+ * @param WP_query  $query la requête principal de WP
+ */
+function cidweb_modifie_requete_principal( $query ) {
+	if ( $query->is_home() //si page acceuil
+	 && $query->is_main_query() // si requete principale
+	  && ! is_admin() ) { // si pas dans le tableau de bord
+		//query -> set permet de 
+	  $query->set( 'category_name', '4w4' ); // filtre leas articles dans la categorie 4w4
+	  $query->set( 'orderby', 'title' ); // trier selon le champ title
+	  $query->set( 'order', 'ASC' ); // trer en ordre acensdant
+	  }
+	 }
+	 add_action( 'pre_get_posts', 'cidweb_modifie_requete_principal' );

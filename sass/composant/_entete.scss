@@ -18,7 +18,16 @@ flex: 1;
             a{
                 padding: 3px 5px;
             }
+
+            
         }
+        .menu-item::before{
+                content: "";
+                background: transparent;
+                border-radius: 0;
+                padding-inline: 0;
+                margin-inline-end: 0;
+            }
     }
     
 }

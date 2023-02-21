@@ -372,26 +372,26 @@ p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
-ul, ol {
-  margin: 1rem 0rem;
-  padding: 3px;
+ul,
+ol {
+  margin: 0rem 0rem;
+  padding: 7px;
   color: #444;
+  list-style-type: none;
 }
 @media screen and (min-width: 400px) {
-  ul, ol {
+  ul,
+ol {
     margin: 1rem 0.5rem;
-    padding: 13px;
+    padding: 0 13px;
   }
 }
-@media screen and (min-width: 400px) {
-  ul, ol {
+@media screen and (min-width: 700px) {
+  ul,
+ol {
     margin: 1rem 0.5rem;
-    padding: 15px;
+    padding: 0 15px;
   }
-}
-
-ul {
-  list-style-type: circle;
 }
 
 ul li,
@@ -399,9 +399,22 @@ ol li {
   margin: 0.5rem 0rem;
 }
 
+ul li::before {
+  color: purple;
+  content: "->";
+  background: lawngreen;
+  border-radius: 0.5rem;
+  padding-inline: 0.5rem;
+  margin-inline-end: 0.5rem;
+}
+
+ul li li::before {
+  background: transparent;
+}
+
 /*
-li>ol{}
-li>ul{}
+li > ol {}
+li > ul {}
 */
 pre {
   background-color: #555;
@@ -428,6 +441,13 @@ pre {
 }
 .menu__entete .menu .menu-item a {
   padding: 3px 5px;
+}
+.menu__entete .menu .menu-item::before {
+  content: "";
+  background: transparent;
+  border-radius: 0;
+  padding-inline: 0;
+  margin-inline-end: 0;
 }
 
 .blocflex {
@@ -465,5 +485,6 @@ main {
 }
 h2 {
   font-size: clamp(0.625rem, -0.3125rem + 3vw, 2.5rem);
+  background: rgb(0,212,255);
   background: linear-gradient(90deg, rgba(0,212,255,0) 0%, rgba(151,31,205,1) 57%, rgba(184,70,241,1) 100%);
 }
