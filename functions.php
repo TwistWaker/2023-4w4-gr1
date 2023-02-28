@@ -44,7 +44,7 @@ function cidweb_modifie_requete_principal( $query ) {
 	 && $query->is_main_query() // si requete principale
 	  && ! is_admin() ) { // si pas dans le tableau de bord
 		//query -> set permet de 
-	  $query->set( 'category_name', '4w4' ); // filtre leas articles dans la categorie 4w4
+	  $query->set( 'category_name', 'note-4w4' ); // filtre leas articles dans la categorie 4w4
 	  $query->set( 'orderby', 'title' ); // trier selon le champ title
 	  $query->set( 'order', 'ASC' ); // trer en ordre acensdant
 	  }
