@@ -23,7 +23,7 @@
 <?php */ ?>
 ////////////////
 
-main class="site__main">
+<main class="site__main">
    <section class="blocflex">
       <?php
       $category = get_queried_object();

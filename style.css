@@ -461,6 +461,42 @@ pre {
   margin: 10px;
 }
 
+/* --------------------------------------------- layout */
+/**
+mise en page générale avec display:grid
+*/
+.site__entete {
+  grid-area: header;
+  padding: 1rem clamp(1rem, 1vw, 20rem);
+}
+
+.site__main {
+  grid-area: main;
+  background-color: purple;
+}
+
+.site__footer {
+  grid-area: footer;
+  background-color: darkmagenta;
+}
+
+.site__aside {
+  grid-area: aside;
+  background-color: violet;
+}
+
+.site {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: "header" "aside" "main" "footer";
+}
+@media screen and (min-width: 1000px) {
+  .site {
+    grid-template-columns: 20% auto;
+    grid-template-areas: "header header" "aside main" ". main" "footer footer";
+  }
+}
+
 body {
   margin: 0;
   color: azure;
