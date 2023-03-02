@@ -1,6 +1,9 @@
 <?php /**
  *  category.php est le model par défaut pour afficher une archive d'articles
  * ne pas oublier les ; a la fin
+ * 
+ * htps:localhost:8000/4w4gr1/category/cours/
+ * htps:localhost:8000/4w4gr1/category/notes-4w4/
  *  */ ?>
 
 <?php get_header(); ?>
