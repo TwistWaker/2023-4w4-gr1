@@ -50,3 +50,20 @@ function cidweb_modifie_requete_principal( $query ) {
 	  }
 	 }
 	 add_action( 'pre_get_posts', 'cidweb_modifie_requete_principal' );
+
+	 /*** permet de personalisé chacun des titres deu menu corus
+	  * @param $title : titre du menu a modifier
+	  $item: la structure du LI du menu
+	  $args: objet décrivant l'ensemble des menu de notre site
+	  $depth : niveau de profondeur du menu (on la retiré)
+	  */
+
+	  function perso_menu_item_title($title, $item, $args) {
+		// Remplacer 'nom_de_votre_menu' par l'identifiant de votre menu
+		if($args->menu == 'cours') { // on filtre uniquement le menu cours
+	// Modifier la longueur du titre en fonction de vos besoins
+	$title = wp_trim_words($title, 3, ' ... '); // modifir améliorer pou rle tp1
+	}
+	return $title;
+	}
+	add_filter('nav_menu_item_title', 'perso_menu_item_title', 10, 3);
