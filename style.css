@@ -460,7 +460,7 @@ pre {
   flex: 1 0 250px;
   padding: 5px;
   margin: 10px;
-  border: 1px solid #aaa;
+  border: 1px solid lawngreen;
 }
 
 .blocflex__galerie {
@@ -483,12 +483,12 @@ mise en page générale avec display:grid
 
 .site__footer {
   grid-area: footer;
-  background-color: darkmagenta;
+  background-color: rgba(184,70,241,1);
 }
 
 .site__aside {
   grid-area: aside;
-  background-color: violet;
+  background-color: rgba(184,70,241,1);
 }
 
 .site {
