@@ -394,6 +394,10 @@ ol {
   }
 }
 
+ul {
+  padding-left: 1rem;
+}
+
 ul li,
 ol li {
   margin: 0.5rem 0rem;
@@ -441,6 +445,7 @@ pre {
 }
 .menu__entete .menu .menu-item a {
   padding: 3px 5px;
+  color: greenyellow;
 }
 .menu__entete .menu .menu-item::before {
   content: "";
@@ -460,7 +465,7 @@ pre {
   flex: 1 0 250px;
   padding: 5px;
   margin: 10px;
-  border: 1px solid lawngreen;
+  border: 1px solid limegreen;
 }
 
 .blocflex__galerie {
@@ -483,12 +488,13 @@ mise en page générale avec display:grid
 
 .site__footer {
   grid-area: footer;
-  background-color: rgba(184,70,241,1);
+  background-color: darkmagenta;
+  color: chartreuse;
 }
 
 .site__aside {
   grid-area: aside;
-  background-color: rgba(184,70,241,1);
+  background-color: violet;
 }
 
 .site {
@@ -512,6 +518,7 @@ mise en page générale avec display:grid
     grid-template-areas: "header" "main" "footer";
   }
 }
+
 body {
   margin: 0;
   color: azure;
@@ -522,7 +529,7 @@ body {
 nav{
 
   background: rgb(0,212,255);
-  background: linear-gradient(90deg, rgba(0,212,255,0) 0%, rgba(151,31,205,1) 57%, rgba(184,70,241,1) 100%);
+  background: linear-gradient(90deg, rgba(0,212,255,0) 0%, rgba(151,31,205,1) 41%, rgba(184,70,241,1) 97%, rgba(184,70,241,0) 100%);
 }
 
 /**
@@ -537,5 +544,5 @@ main {
 h2 {
   font-size: clamp(0.625rem, -0.3125rem + 3vw, 2.5rem);
   background: rgb(0,212,255);
-  background: linear-gradient(90deg, rgba(0,212,255,0) 0%, rgba(151,31,205,1) 57%, rgba(184,70,241,1) 100%);
+  background: linear-gradient(90deg, rgba(0,212,255,0) 0%, rgba(151,31,205,1) 41%, rgba(184,70,241,1) 97%, rgba(184,70,241,0) 100%);
 }

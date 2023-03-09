@@ -1,7 +1,18 @@
 <footer class="site__footer">
-<section class="lien"> lien#1</section>
-<section class="lien"> lien#2</section>
-<section class="lien"> lien#3</section>
+
+
+<section class="site_footer_logo">
+ <?php the_custom_logo(); ?>
+ <nav class="footer1">
+<h5>Plus ici!</h5>
+ <?php wp_nav_menu(array(
+    "menu" => "footer1",
+    "container" => "nav",
+    "container_class" => "menu__footer", )); ?>
+</nav>
+<nav class="footer2">
+</nav>
+</section>  
 
 </footer>
 <?php wp_footer(); ?>
