@@ -434,12 +434,24 @@ pre {
   text-decoration: none;
 }
 
+.menu_recherche {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 1000px) {
+  .menu_recherche {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
 .menu__entete {
   margin-left: auto;
   flex: 1;
 }
 .menu__entete .menu {
   display: flex;
+  flex-direction: row;
   list-style-type: none;
   justify-content: flex-end;
 }
@@ -472,6 +484,13 @@ pre {
   flex: 1 0 100%;
 }
 
+.recherche {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 3rem;
+}
+
 /* --------------------------------------------- layout */
 /**
 mise en page générale avec display:grid
@@ -489,7 +508,6 @@ mise en page générale avec display:grid
 .site__footer {
   grid-area: footer;
   background-color: darkmagenta;
-  color: chartreuse;
 }
 
 .site__aside {
@@ -518,7 +536,6 @@ mise en page générale avec display:grid
     grid-template-areas: "header" "main" "footer";
   }
 }
-
 body {
   margin: 0;
   color: azure;

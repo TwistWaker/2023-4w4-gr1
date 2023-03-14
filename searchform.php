@@ -1,4 +1,4 @@
-Le formulaire de recherche personnalisé
+
 <?php
 /* Formulaire de recherche personnalisée */
 ?>

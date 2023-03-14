@@ -6,13 +6,24 @@
     }
 }
 
+.menu_recherche{
+    display: flex;
+    flex-direction: column;
+    @media screen and (min-width : $largeur__bureau) {
+        flex-direction: row;
+        align-items:center ;
+    }
+}
+
 .menu__entete{ //nav 
 margin-left: auto;
 flex: 1;
     .menu{ //ul
         display: flex;
+        flex-direction: row;
         list-style-type: none;
         justify-content: flex-end;
+    
         .menu-item{//li
 
             a{
