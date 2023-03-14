@@ -8,6 +8,10 @@ wp_enqueue_style('4w4-gr1-principal', // id
         array(), // définir les dépendances
         filemtime(get_template_directory() . '/style.css'), // le calcul de la version du fichier css
         'all'); // media
+
+		wp_enqueue_style('google_font',
+			"https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap",
+			false);
 }        
 
 add_action( 'wp_enqueue_scripts', 'enfiler_css' );     
@@ -62,7 +66,9 @@ function cidweb_modifie_requete_principal( $query ) {
 		// Remplacer 'nom_de_votre_menu' par l'identifiant de votre menu
 		if($args->menu == 'cours') { // on filtre uniquement le menu cours
 	// Modifier la longueur du titre en fonction de vos besoins
-	$title = wp_trim_words($title, 3, ' ... '); // modifir améliorer pou rle tp1
+	$sigle = substr($title, 4,3);
+	$title = substr($title, 7);
+	$title = "<code>" .$sigle. "</code>" . "<p>" . wp_trim_words($title, 2, ' ... '); // modifir améliorer pou rle tp1
 	}
 	return $title;
 	}

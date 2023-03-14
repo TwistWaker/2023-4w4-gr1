@@ -19,7 +19,7 @@ padding: 1rem clamp( 1rem, 1vw, 20rem);
 
 .site__aside{
 grid-area: aside;
-background-color: violet;
+background-color: darkorchid;
 }
 
 .site {
@@ -36,7 +36,7 @@ background-color: violet;
         grid-template-areas:
           "header header"
           "aside main"
-          ". main"
+          "aside main"
           "footer footer";
     }
   }
