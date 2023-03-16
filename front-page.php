@@ -6,7 +6,6 @@
 <?php get_header(); ?>
 
 <main class="site__main">
-    <pre>front-page.php</pre>
     <h1>bienvenue au TIM 2023</h1>
     <section class="blocflex">
 <?php if(have_posts()):
