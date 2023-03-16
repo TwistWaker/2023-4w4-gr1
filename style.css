@@ -630,7 +630,7 @@ body {
 nav{
 
   background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(131,124,124,1) 22%, rgba(0,0,0,1) 63%, rgba(0,0,0,1) 89%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(-90deg, rgba(255,255,255,0) 0%, rgba(131,124,124,1) 5%, rgba(0,0,0,1) 63%, rgba(0,0,0,1) 89%, rgba(0,0,0,0) 100%);
 }
 
 /**
@@ -645,5 +645,5 @@ main {
 h2 {
   font-size: clamp(0.625rem, -0.3125rem + 3vw, 2.5rem);
   background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(131,124,124,1) 22%, rgba(0,0,0,1) 63%, rgba(0,0,0,1) 89%, rgba(0,0,0,0) 100%);
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(131,124,124,1) 5%, rgba(0,0,0,1) 63%, rgba(0,0,0,1) 89%, rgba(0,0,0,0) 100%);
 }
