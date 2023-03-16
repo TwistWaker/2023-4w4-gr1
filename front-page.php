@@ -7,7 +7,7 @@
 
 <main class="site__main">
     <pre>front-page.php</pre>
-    <h1>bienvenue sur 4w4</h1>
+    <h1>bienvenue au TIM 2023</h1>
     <section class="blocflex">
 <?php if(have_posts()):
         while(have_posts()): the_post(); ?>

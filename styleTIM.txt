@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  color: azure;
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 25%, rgba(131,124,124,1) 58%, rgba(255,255,255,0) 100%);
+}
+
+nav{
+
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,0) 0%, rgba(151,31,205,1) 41%, rgba(184,70,241,1) 97%, rgba(184,70,241,0) 100%);
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+background: rgb(168,168,168);
+background: linear-gradient(90deg, rgba(168,168,168,1) 31%, rgba(255,255,255,0) 100%);
+
+}
+h2 {
+  font-size: clamp(0.625rem, -0.3125rem + 3vw, 2.5rem);
+  background: rgb(0,212,255);
+  background: linear-gradient(90deg, rgba(0,212,255,0) 0%, rgba(151,31,205,1) 41%, rgba(184,70,241,1) 97%, rgba(184,70,241,0) 100%);
+}
