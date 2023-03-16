@@ -2,15 +2,10 @@
 ## 4w4-conception d'interface et développement web
 ### auteur : benoit
 #### obejectifs
-- installer Wordpress localement
-- réaliser une première version d'un thème
-- résumer de git
+- créé d'un site web pour le TIM
 
 #### liens de référence
-- site du prof sur siteground
-- https://eddytuto.sg-host.com/
-- https://github.com/eddytuto
+- site de Benoit Fiola
+- http://cidweb32.sg-host.com/
+- https://github.com/TwistWaker/2023-4w4-gr1
 - https://fr.worpress.org/
-- pour visualiser sur VC installer << Markdown preview>>
-- pour activer `control-shift-V`
-- https://developer.wordpress.org/themes/basics/

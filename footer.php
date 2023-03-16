@@ -10,9 +10,7 @@
     "container" => "nav",
     "container_class" => "menu__footer", )); ?>
 </nav>
-<nav class="footer2">
-</nav>
-</section>  
+
 
 </footer>
 <?php wp_footer(); ?>
