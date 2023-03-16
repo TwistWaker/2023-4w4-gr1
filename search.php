@@ -1,7 +1,7 @@
 Un exemple du modèle search.php
 <?php
 /**
- * Modèle de recherche
+ * Modèle de recherche pour le site web
  */
 ?>
 

@@ -1,6 +1,6 @@
 
 <?php
-/* Formulaire de recherche personnalisée */
+/* Formulaire de recherche personnalisée en fonction de ce qui est entré dans la barre de recherche */
 ?>
 <form class="recherche" role="search" method="get"  action="<?php echo esc_url( home_url( '/' ) ); ?>">
   <label>
