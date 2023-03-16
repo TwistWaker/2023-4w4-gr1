@@ -73,3 +73,5 @@ function cidweb_modifie_requete_principal( $query ) {
 	return $title;
 	}
 	add_filter('nav_menu_item_title', 'perso_menu_item_title', 10, 3);
+
+add_theme_support('custom-background');
