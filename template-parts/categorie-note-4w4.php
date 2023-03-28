@@ -12,3 +12,9 @@ $titre = get_the_title();
     <h5><a href="<?php the_permalink(); ?>"> <?= $titre; ?></a></h5>
     <p><?= wp_trim_words(get_the_excerpt(), 15) ?></p>
 </article>
+
+<?php 
+// the_excerpt() // le résumer du post
+// the_content()  // affiche le contenue complet du post
+
+?>

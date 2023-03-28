@@ -8,7 +8,7 @@
     <?php wp_head(); ?>
 </head>
 <body class="site <?php echo(is_front_page() ? "no-aside" : "")?>">
-    <header class="siteentete">
+    <header class="site__entete">
         <section class="entete__nav">
             <?php the_custom_logo()?>
             <div class="menu__recherche">
