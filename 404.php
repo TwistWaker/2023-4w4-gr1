@@ -6,7 +6,7 @@
 
 <?php get_header(); ?>
 <body class="site <?php echo(is_404() ? "no-aside" : "")?>">
-    <main class="site__main" >
+    <main class="error" >
     
         <h1>Erreur 404</h1>
         <h3>Désoler, nous ne pouvons pas trouvé la page que vous chercher. voulez vous
