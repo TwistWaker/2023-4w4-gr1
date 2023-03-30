@@ -1,8 +1,8 @@
-# laboratoire 1
+# Examen intra
 ## 4w4-conception d'interface et développement web
 ### auteur : benoit
-#### obejectifs
-- créé d'un site web pour le TIM
+#### objectifs
+- amélioration de la page 404
 
 #### liens de référence
 - site de Benoit Fiola
