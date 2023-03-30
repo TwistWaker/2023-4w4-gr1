@@ -6,7 +6,6 @@
 ?>
 
 <?php get_header(); ?>
-<body class="site <?php echo(is_category() ? "no-aside" : "")?>">
     <main class="error" >
     
         <h1>Erreur 404</h1>
@@ -36,6 +35,6 @@ wp_nav_menu(array(
   </article>
 
     </main>
-    </body>
+ 
     <?php get_footer(); ?>
 
