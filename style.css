@@ -536,6 +536,11 @@ pre {
   height: 3rem;
 }
 
+.recherche__input {
+  background-color: darkmagenta;
+  color: lawngreen;
+}
+
 .menu-cours-container .menu {
   display: flex;
   flex-direction: row;
@@ -617,7 +622,6 @@ mise en page générale avec display:grid
     grid-template-areas: "header" "main" "footer";
   }
 }
-
 body {
   margin: 0;
   color: azure;

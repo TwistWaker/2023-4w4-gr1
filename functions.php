@@ -69,6 +69,11 @@ function cidweb_modifie_requete_principal( $query ) {
 	$sigle = substr($title, 4,3);
 	$title = substr($title, 7);
 	$title = "<code>" .$sigle. "</code>" . "<p>" . wp_trim_words($title, 2, ' ... '); // modifir améliorer pou rle tp1
+	if($args -> menu == 'note-4w4'){
+		if(substr($title,0,1) == '0'){
+			$title = substr($title,1);
+		}
+	}
 	}
 	return $title;
 	}
