@@ -366,10 +366,6 @@ h5,
 h6 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin: 0.5rem 0;
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: center;
-  width: auto;
 }
 
 p {
@@ -634,6 +630,7 @@ mise en page générale avec display:grid
     grid-template-areas: "header" "main" "footer";
   }
 }
+
 body {
   margin: 0;
   color: azure;
