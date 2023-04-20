@@ -75,3 +75,36 @@ function cidweb_modifie_requete_principal( $query ) {
 	add_filter('nav_menu_item_title', 'perso_menu_item_title', 10, 3);
 
 add_theme_support('custom-background');
+/* -----------------------------------------------enregistrement des widgets*/
+function enregistrer_sidebar() {
+    register_sidebar( array(
+        'name' => __( 'footer1', 'nom-de-mon-theme' ),
+        'id' => 'footer1',
+        'description' => __( 'Une zone de widget pour afficher des widgets dans le pied de page.', 'nom-de-mon-theme' ),
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widget-title">',
+        'after_title' => '</h2>',
+    ) );
+
+    register_sidebar( array(
+        'name' => __( 'footer2', 'nom-de-mon-theme' ),
+        'id' => 'footer2',
+        'description' => __( 'Une zone de widget pour afficher des widgets dans le pied de page.', 'nom-de-mon-theme' ),
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widget-title">',
+        'after_title' => '</h2>',
+    ) );
+
+    register_sidebar( array(
+        'name' => __( 'footer3', 'nom-de-mon-theme' ),
+        'id' => 'footer3',
+        'description' => __( 'Une zone de widget pour afficher des widgets dans le pied de page.', 'nom-de-mon-theme' ),
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h2 class="widget-title">',
+        'after_title' => '</h2>',
+    ) );
+}
+add_action( 'widgets_init', 'enregistrer_sidebar' );
