@@ -25,3 +25,9 @@ h2 {
   background: rgb(0,212,255);
   background: linear-gradient(90deg, rgba(0,212,255,0) 0%, rgba(151,31,205,1) 41%, rgba(184,70,241,1) 97%, rgba(184,70,241,0) 100%);
 }
+
+.footer_col{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

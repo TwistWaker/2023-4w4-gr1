@@ -8,6 +8,12 @@
 <main class="site__main">
     <h1>bienvenue au TIM 2023</h1>
     <section class="blocflex">
+    <?php wp_nav_menu(array(
+        "menu" => "evenement",
+        "container" => "nav"
+    )) ?>
+    </section>
+    <section class="blocflex">
 <?php if(have_posts()):
         while(have_posts()): the_post(); ?>
 
