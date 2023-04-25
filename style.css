@@ -582,6 +582,7 @@ pre {
   flex-direction: column;
   border: 1px solid lime;
   height: auto;
+  margin: 10px;
 }
 
 /* --------------------------------------------- layout */

@@ -1,12 +1,13 @@
-.menu-evenement-container{
-.menu{
+.menu-evenement-container{ //nav
+.menu{ //ul
 display: flex;
 justify-content:space-between;
-    .menu-item{
+    .menu-item{ //li
         display: flex;
         flex-direction: column;
         border: 1px solid lime;
         height: auto;
+        margin: 10px;
     }
 }
 
