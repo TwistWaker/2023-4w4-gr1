@@ -11,7 +11,7 @@
 
 <?php if(have_posts()):
         while(have_posts()): the_post(); ?>
-        <article>
+        <article class = "article__single">
         
   <h3> <?php the_post_thumbnail('thumbnail'); ?> <?php the_title(); ?></h3></a>
     <?php the_content(); ?>
