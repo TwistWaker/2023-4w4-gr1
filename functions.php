@@ -75,6 +75,8 @@ function cidweb_modifie_requete_principal( $query ) {
 	add_filter('nav_menu_item_title', 'perso_menu_item_title', 10, 3);
 
 add_theme_support('custom-background');
+add_theme_support('post-thumbnails');
+set_post_thumbnail_size(150, 150, true);
 /* -----------------------------------------------enregistrement des widgets*/
 function enregistrer_sidebar() {
     register_sidebar( array(

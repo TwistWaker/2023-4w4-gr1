@@ -530,6 +530,17 @@ pre {
   flex: 1 0 100%;
 }
 
+.blocflex__figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blocflex__figure img {
+  display: block;
+  width: 150px;
+}
+
 .recherche {
   display: flex;
   flex-wrap: nowrap;
@@ -583,6 +594,14 @@ pre {
   border: 1px solid lime;
   height: auto;
   margin: 10px;
+}
+
+.article__single h3 {
+  display: flex;
+  align-items: center;
+}
+.article__single h3 img {
+  margin: 15px;
 }
 
 /* --------------------------------------------- layout */

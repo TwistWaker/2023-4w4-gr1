@@ -17,3 +17,14 @@
    flex : 1 0 100%; 
    
 }
+
+.blocflex__figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img{
+        display: block;
+        width: 150px;
+    }
+}
