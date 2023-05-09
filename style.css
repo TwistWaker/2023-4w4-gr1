@@ -649,7 +649,6 @@ mise en page générale avec display:grid
     grid-template-areas: "header" "main" "footer";
   }
 }
-
 body {
   margin: 0;
   color: azure;
