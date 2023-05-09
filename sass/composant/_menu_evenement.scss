@@ -8,6 +8,23 @@ justify-content:space-between;
         border: 1px solid lime;
         height: auto;
         margin: 10px;
+
+        a{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .title{
+                font-size: 1.5rem;
+            }
+            .description{
+                font-size: 1.5rem;
+            }
+            .menu-thumbnail{
+                display: block;
+                width: 150px;
+                height: 150px;
+            }
+        }
     }
 }
 

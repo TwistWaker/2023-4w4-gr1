@@ -595,6 +595,22 @@ pre {
   height: auto;
   margin: 10px;
 }
+.menu-evenement-container .menu .menu-item a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.menu-evenement-container .menu .menu-item a .title {
+  font-size: 1.5rem;
+}
+.menu-evenement-container .menu .menu-item a .description {
+  font-size: 1.5rem;
+}
+.menu-evenement-container .menu .menu-item a .menu-thumbnail {
+  display: block;
+  width: 150px;
+  height: 150px;
+}
 
 .article__single h3 {
   display: flex;
@@ -649,6 +665,7 @@ mise en page générale avec display:grid
     grid-template-areas: "header" "main" "footer";
   }
 }
+
 body {
   margin: 0;
   color: azure;
