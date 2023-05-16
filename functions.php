@@ -110,7 +110,7 @@ function enregistrer_sidebar() {
     ) );
 }
 add_action( 'widgets_init', 'enregistrer_sidebar' );
-
+/* ajout du logo et des tthumnail en bas de page */
 function add_menu_description_and_thumbnail( $item_output, $item, $depth, $args ) {
     if (  'evenement'== $args->menu   ) {
         $post_thumbnail_id = get_post_thumbnail_id( $item->object_id );
