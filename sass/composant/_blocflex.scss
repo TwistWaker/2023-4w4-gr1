@@ -5,6 +5,11 @@
     font-family: 'Tilt Warp', cursive;
     max-height: 100vh;
     margin-bottom: 5rem;
+    @media screen and (min-width: $largeur__tablette){
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+    }
 
 }
 .blocflex__article {
