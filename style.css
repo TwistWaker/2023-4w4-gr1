@@ -404,24 +404,7 @@ ol li {
   margin: 0.5rem 0rem;
 }
 
-/*ul   li::before {
-    color: purple;
-    content: "->";
-    background: lawngreen;
-    border-radius: .5rem;
-    padding-inline: .5rem;
-    margin-inline-end: .5rem;
-      }
-      ul li li::before
-      {
-        background: transparent;
-      }
 
-*/
-/*
-li > ol {}
-li > ul {}
-*/
 pre {
   background-color: #555;
   color: #eee;
