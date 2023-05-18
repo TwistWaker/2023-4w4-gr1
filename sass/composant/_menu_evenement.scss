@@ -27,7 +27,18 @@ justify-content:space-between;
         }
     }
 }
-
-
-
 }
+.img__archive{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.archive__cours .img__archive{
+background-image: url();
+}
+.archive__4w4  .img__archive{
+    background-image: url();
+}
+
