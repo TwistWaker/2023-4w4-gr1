@@ -11,4 +11,8 @@ wp_nav_menu(array(
     "menu" => $menu,
     "container" => "nav"
 )) ?>
+
+<div class="sidebar">
+    <?php dynamic_sidebar( 'sidebar1' ); ?>
+</div>
 </aside>

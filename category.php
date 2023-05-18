@@ -24,7 +24,7 @@
 </section>
 </main>
 <?php */ ?>
-////////////////
+
 
 <main class="site__main">
    <section class="blocflex">
