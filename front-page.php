@@ -1,6 +1,6 @@
 <?php /**
  *  index.php est le model par défaut deu thème 4w4
- * ne pas oublier les ; a la fin
+ * ne pas oublier les ; a la fin.
  *  */ ?>
 
 <?php get_header(); ?>

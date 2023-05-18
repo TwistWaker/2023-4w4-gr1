@@ -19,7 +19,7 @@
 
 
 <div>
-    <?php //afficher le logo en fond de page ?>
+    <?php //afficher le logo en fond de page. ?>
 <section class="site_footer_logo">
  <?php the_custom_logo(); ?>
  <nav class="footer1">
