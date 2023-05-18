@@ -5,7 +5,7 @@
 $menu = "note-4w4";
 if(in_category('cours')){$menu = "cours";}
 
-// $menu peut prendre les veleurd de 4W4 ou cours
+// $menu peut prendre les veleurd de 4W4 ou cours.
 echo $menu;
 wp_nav_menu(array(
     "menu" => $menu,

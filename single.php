@@ -1,6 +1,6 @@
 <?php /**
  *  single.php est le model par défaut qui affiche un article
- * ne pas oublier les ; a la fin
+ * ne pas oublier les ; a la fin.
  *  */ ?>
 
 <?php get_header(); ?>
