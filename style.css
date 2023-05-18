@@ -616,6 +616,7 @@ mise en page générale avec display:grid
 .site__main {
   grid-area: main;
   background-color: purple;
+  height: 100%;
 }
 
 .site__footer {
