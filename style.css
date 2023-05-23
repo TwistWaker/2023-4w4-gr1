@@ -501,6 +501,7 @@ pre {
   flex-wrap: wrap;
   font-family: "Tilt Warp", cursive;
   max-height: 100vh;
+  
 }
 
 .blocflex__article {
@@ -511,6 +512,7 @@ pre {
 }
 
 .blocflex__galerie {
+  
   flex: 1 0 100%;
 }
 
@@ -571,17 +573,20 @@ pre {
 .menu-evenement-container .menu {
   display: flex;
   justify-content: space-between;
+  background-color: gainsboro;
 }
 .menu-evenement-container .menu .menu-item {
   display: flex;
   flex-direction: column;
   height: auto;
   margin: 10px;
+  background-color: gainsboro;
 }
 .menu-evenement-container .menu .menu-item a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: gainsboro;
 }
 .menu-evenement-container .menu .menu-item a .title {
   font-size: 1.5rem;
