@@ -6,7 +6,13 @@
 <?php get_header(); ?>
 
 <main class="site__main">
-   
+    <section class="blocflex">
+        <h2>Atelier 2023</h2>
+    <?php wp_nav_menu(array(
+        "menu" => "atelier",
+        "container" => "nav"
+    )) ?>
+    </section>
     <section class="blocflex">
 <?php if(have_posts()):
         while(have_posts()): the_post(); ?>
