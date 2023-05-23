@@ -353,6 +353,7 @@ P {
 
 h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: black;
 }
 
 h2 {
@@ -376,7 +377,7 @@ ul,
 ol {
   margin: 0rem 0rem;
   padding: 7px;
-  color: purple;
+  color: black;
   list-style-type: none;
 }
 @media screen and (min-width: 400px) {
@@ -445,7 +446,7 @@ pre {
 }
 .menu__entete .menu .menu-item a {
   padding: 3px 5px;
-  color: lime;
+  color: darkblue;
 }
 .menu__entete .menu .menu-item::before {
   content: "";
@@ -615,19 +616,19 @@ mise en page générale avec display:grid
 
 .site__main {
   grid-area: main;
-  background-color: purple;
+  background-color: lightskyblue;
   height: 200%;
   margin-bottom: 6rem;
 }
 
 .site__footer {
   grid-area: footer;
-  background-color: darkmagenta;
+  background-color: lightskyblue;
 }
 
 .site__aside {
   grid-area: aside;
-  background-color: darkorchid;
+  background-color: lightskyblue;
 }
 
 .site {
@@ -655,14 +656,12 @@ mise en page générale avec display:grid
 body {
   margin: 0;
   color: azure;
-  background: rgb(34,193,195);
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(38,214,162,1) 30%, rgba(45,253,100,1) 79%, rgba(45,251,103,1) 90%);
+  background-color: lightblue;
 }
 
 nav{
 
-  background: rgb(0,212,255);
-  background: linear-gradient(90deg, rgba(0,212,255,0) 0%, rgba(151,31,205,1) 41%, rgba(184,70,241,1) 97%, rgba(184,70,241,0) 100%);
+  background: lightskyblue;
 }
 
 /**
@@ -670,14 +669,13 @@ nav{
  */
 main {
   display: block;
-  background: rgb(184,70,241);
-  background: linear-gradient(90deg, rgba(184,70,241,1) 0%, rgba(151,31,205,1) 19%, rgba(0,212,255,0) 100%);
+
 
 }
 h2 {
   font-size: clamp(0.625rem, -0.3125rem + 3vw, 2.5rem);
-  background: rgb(0,212,255);
-  background: linear-gradient(90deg, rgba(0,212,255,0) 0%, rgba(151,31,205,1) 41%, rgba(184,70,241,1) 97%, rgba(184,70,241,0) 100%);
+  color: black;
+
 }
 
 .footer_col{

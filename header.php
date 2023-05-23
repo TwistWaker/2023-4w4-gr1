@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mon 4W4</title>
     <?php wp_head(); ?>
 </head>
 <body class="custom-background site <?php echo(is_front_page() ? "no-aside" : "")?>">
@@ -18,7 +17,7 @@
                 <label class="burger" for="chkBurger"><?php /* ?><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png" width="35" height="35"><?*/?> plus d'option ici!</label>
             </div>
         </section>
-        <h1><a class="site__titre" href="<?= bloginfo('url');?>"><?= bloginfo('name');?></a></h1>
+        
         <h2><?= bloginfo('description');?></h2>
     </header>
-    <?php if (!is_front_page()) { get_template_part("template-parts/aside");}?>
+    <?php  get_template_part("template-parts/aside");?>
