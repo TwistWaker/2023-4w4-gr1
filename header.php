@@ -17,7 +17,7 @@
                 <label class="burger" for="chkBurger"><?php /* ?><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png" width="35" height="35"><?*/?> plus d'option ici!</label>
             </div>
         </section>
-        
+        <h1><a class="site__titre" href="<?= bloginfo('url');?>"><?= bloginfo('name');?></a></h1>
         <h2><?= bloginfo('description');?></h2>
     </header>
     <?php  get_template_part("template-parts/aside");?>
