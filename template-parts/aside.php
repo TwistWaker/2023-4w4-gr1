@@ -1,4 +1,5 @@
 <aside class="site__aside">
+<?php the_post_thumbnail('small') ?>
 <h3>Nos ateliers en 2023</h3>
 <?php
 

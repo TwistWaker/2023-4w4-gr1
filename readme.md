@@ -1,9 +1,9 @@
-# laboratoire 1
+# examen finale
 ## 4w4-conception d'interface et développement web
 ### auteur : benoit
 #### obejectifs
-- créé d'un site web pour moi-meme avec une amélioration sur le tp1
-- TP2
+- recréation du site présenter dans les document donner a partir de notre tp2
+- Examen_finale
 
 #### liens de référence
 - site de Benoit Fiola
