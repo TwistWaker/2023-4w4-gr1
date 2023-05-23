@@ -13,6 +13,6 @@ wp_nav_menu(array(
 )) ?>
 
 <div class="sidebar">
-    <?php dynamic_sidebar( 'sidebar1' ); ?>
+
 </div>
 </aside>
